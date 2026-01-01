@@ -1,37 +1,69 @@
-🎓 AcademicRescue : Student Drop-Risk & Academic Rescue System. AcademicRescue is an AI-powered platform designed primarily for engineering colleges to identify at-risk students through early detection and provide personalized intervention strategies to prevent academic failure.
+# 🎓 AcademicRescue
+**AI-Powered Student Drop-Risk & Academic Rescue System**
 
-🚀 Overview : Many students in Tier-3 engineering colleges face academic challenges that go unnoticed until it's too late. AcademicRescue leverages Google Gemini AI to analyze attendance, marks, backlogs, and stress indicators. The system provides instant risk assessments and generates customized "Rescue Plans" to help students get back on track.
+AcademicRescue is an AI-powered platform designed primarily for engineering colleges to identify at-risk students through early detection and provide personalized intervention strategies to prevent academic failure.
 
-Live on : https://academicrescue.netlify.app/
+[Live Demo : Academic Rescue](https://academicrescue.netlify.app/)
 
-Key Stats :
+---
 
-• 85% Improvement Rate
+## 🚀 Overview
+Many students in Tier-3 engineering colleges face academic challenges that go unnoticed until it's too late. AcademicRescue leverages **Google Gemini AI** to analyze attendance, marks, backlogs, and stress indicators. The system provides instant risk assessments and generates customized "Rescue Plans" to help students get back on track.
 
-• Quick Analysis
+### Key Stats
+* **85%** Improvement Rate
+* **Quick** AI Analysis
+* **24/7** AI-Driven Support
 
-• 24/7 AI-Driven Support
+---
 
-✨ Features :
+## ✨ Features
+* **AI-Powered Risk Analysis:** Uses advanced LLMs to predict academic risk levels (Low, Medium, High).
+* **Personalized Rescue Plans:** Provides daily targets, subject-wise strategies (e.g., Math vs. Programming), and actionable milestones.
+* **Comprehensive Assessment:** Multi-step form capturing academics, attendance, study habits, and sleep patterns.
+* **Mentor Dashboard:** Faculty can track student progress in real-time for timely human intervention.
 
-AI-Powered Risk Analysis : Using advanced LLMs, the system predicts academic risk levels (Low, Medium, High) based on multi-dimensional data points.
+---
 
-Personalized Rescue Plans : Upon assessment, students receive: Daily Targets: Specific study hours and focus areas. Subject-Wise Strategies: Tailored approaches for difficult subjects like Mathematics vs. Programming. Short-term & Long-term Goals: Actionable milestones to clear backlogs and improve CGPA.
+## 🛠️ How It Works
+1. **Data Entry:** Students input attendance, marks, backlogs, and self-assessment details.
+2. **AI Analysis:** Google Gemini AI identifies specific areas of concern with high accuracy.
+3. **Rescue Generation:** The system creates a personalized plan with daily schedules and mentor recommendations.
+4. **Progress Tracking:** Mentors and students monitor improvement metrics through historical data.
 
-Comprehensive Student Assessment : A multi-step form that captures: Basic Info: Semester and personal details. Academic Performance: Subject-wise marks and backlog tracking. Behavioral Insights: Attendance trends, study habits, and stress levels, slepping time.
+---
 
-Mentor Dashboard : Faculty and mentors can track student progress in real-time, allowing for timely human intervention to complement AI recommendations.
+## 💻 Tech Stack
+* **Frontend:** React.js / Next.js (Tailwind CSS)
+* **AI Engine:** Google Gemini API
+* **Backend:** Node.js / Firebase
+* **Deployment:** Netlify
 
-🛠️ How It Works :
+---
 
-Data Entry: Students input their attendance, marks, and self-assessment details. AI Analysis: Google Gemini AI processes the data to identify specific areas of concern. Rescue Generation: The system generates a PDF-exportable rescue plan with daily schedules and mentor recommendations. Progress Tracking: Students and mentors monitor improvement through historical data analytics.
+## 📦 UI Highlight: Dropdown Component
+The following component is used in the navigation for Mentor and Profile menus:
 
-💻 Tech Stack :
-
-Frontend: React.js / Next.js (Tailwind CSS for UI) 
-
-AI Engine: Google Gemini API 
-
-Backend: Node.js / Firebase (as per your implementation)
-
-Deployment: Netlify
+```jsx
+const Dropdown = ({ label, items }) => {
+  const [open, setOpen] = React.useState(false);
+  return (
+    <div className="relative inline-block text-left">
+      <button 
+        onClick={() => setOpen(!open)} 
+        className="px-4 py-2 bg-white border rounded-lg hover:bg-gray-50 transition"
+      >
+        {label} <span className="ml-1">▾</span>
+      </button>
+      {open && (
+        <div className="absolute right-0 mt-2 w-48 bg-white border rounded-xl shadow-xl z-50">
+          {items.map((item) => (
+            <a key={item} href="#" className="block px-4 py-2 text-sm hover:bg-indigo-50 text-gray-700">
+              {item}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
