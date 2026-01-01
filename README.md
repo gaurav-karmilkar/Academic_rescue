@@ -1,4 +1,4 @@
-🎓 AcademicRescue: Student Drop-Risk & Academic Rescue System
+🎓 AcademicRescue : Student Drop-Risk & Academic Rescue System
 AcademicRescue is an AI-powered platform designed primarily for engineering colleges to identify at-risk students through early detection and provide personalized intervention strategies to prevent academic failure.
 
 🚀 Overview :
