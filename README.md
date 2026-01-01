@@ -15,13 +15,23 @@ Key Stats :
 ✨ Features :
 
 AI-Powered Risk Analysis : Using advanced LLMs, the system predicts academic risk levels (Low, Medium, High) based on multi-dimensional data points.
+
 Personalized Rescue Plans : Upon assessment, students receive: Daily Targets: Specific study hours and focus areas. Subject-Wise Strategies: Tailored approaches for difficult subjects like Mathematics vs. Programming. Short-term & Long-term Goals: Actionable milestones to clear backlogs and improve CGPA.
+
 Comprehensive Student Assessment : A multi-step form that captures: Basic Info: Semester and personal details. Academic Performance: Subject-wise marks and backlog tracking. Behavioral Insights: Attendance trends, study habits, and stress levels, slepping time.
+
 Mentor Dashboard : Faculty and mentors can track student progress in real-time, allowing for timely human intervention to complement AI recommendations.
+
 🛠️ How It Works :
 
 Data Entry: Students input their attendance, marks, and self-assessment details. AI Analysis: Google Gemini AI processes the data to identify specific areas of concern. Rescue Generation: The system generates a PDF-exportable rescue plan with daily schedules and mentor recommendations. Progress Tracking: Students and mentors monitor improvement through historical data analytics.
 
 💻 Tech Stack :
 
-Frontend: React.js / Next.js (Tailwind CSS for UI) AI Engine: Google Gemini API Backend: Node.js / Firebase (as per your implementation) Deployment: Netlify
+Frontend: React.js / Next.js (Tailwind CSS for UI) 
+
+AI Engine: Google Gemini API 
+
+Backend: Node.js / Firebase (as per your implementation)
+
+Deployment: Netlify
