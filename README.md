@@ -1,58 +1,73 @@
-🎓 AcademicRescue : Student Drop-Risk & Academic Rescue System
-AcademicRescue is an AI-powered platform designed primarily for engineering colleges to identify at-risk students through early detection and provide personalized intervention strategies to prevent academic failure.
+# Welcome to your Lovable project
 
-🚀 Overview :
-Many students in Tier-3 engineering colleges face academic challenges that go unnoticed until it's too late. AcademicRescue leverages Google Gemini AI to analyze attendance, marks, backlogs, and stress indicators. The system provides instant risk assessments and generates customized "Rescue Plans" to help students get back on track.
+## Project info
 
-Website Live on : https://academicrescue.netlify.app/
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-Key Stats:
+## How can I edit this code?
 
-85% Improvement Rate
+There are several ways of editing your application.
 
-24/7 AI-Driven Support
+**Use Lovable**
 
-Quick Analysis
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-✨ Features :
-1. AI-Powered Risk Analysis
-Using advanced LLMs, the system predicts academic risk levels (Low, Medium, High) based on multi-dimensional data points.
+Changes made via Lovable will be committed automatically to this repo.
 
-2. Personalized Rescue Plans
-Upon assessment, students receive:
+**Use your preferred IDE**
 
-Daily Targets: Specific study hours and focus areas.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-Subject-Wise Strategies: Tailored approaches for difficult subjects like Mathematics vs. Programming.
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Short-term & Long-term Goals: Actionable milestones to clear backlogs and improve CGPA.
+Follow these steps:
 
-3. Comprehensive Student Assessment :
-A multi-step form that captures:
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-Basic Info: Semester and personal details.
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-Academic Performance: Subject-wise marks and backlog tracking.
+# Step 3: Install the necessary dependencies.
+npm i
 
-Behavioral Insights: Attendance trends, study habits, and stress levels, sleeping time.
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-4. Mentor Dashboard :
-Faculty and mentors can track student progress in real-time, allowing for timely human intervention to complement AI recommendations.
+**Edit a file directly in GitHub**
 
-🛠️ How It Works :
-Data Entry: Students input their attendance, marks, and self-assessment details.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-AI Analysis: Google Gemini AI processes the data to identify specific areas of concern.
+**Use GitHub Codespaces**
 
-Rescue Generation: The system generates a PDF-exportable rescue plan with daily schedules and mentor recommendations.
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-Progress Tracking: Students and mentors monitor improvement through historical data analytics.
+## What technologies are used for this project?
 
-💻 Tech Stack
-Frontend: React.js / Next.js (Tailwind CSS for UI)
+This project is built with:
 
-AI Engine: Google Gemini API
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-Backend: Node.js / Firebase (as per your implementation)
+## How can I deploy this project?
 
-Deployment: Netlify
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
