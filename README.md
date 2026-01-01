@@ -8,7 +8,7 @@ Key Stats :
 
 • 85% Improvement Rate
 
-• Quick Analysis85
+• Quick Analysis
 
 • 24/7 AI-Driven Support
 
